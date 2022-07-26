@@ -29,7 +29,7 @@ webPush.setVapidDetails('mailto:test@test.com', publicVapidKey, privateVapidKey)
 
 const Sub = mongoose.model('Sub')
 
-const uri = `mongodb+srv://${username}:${password}@cluster0.jwows.mongodb.net/?retryWrites=true&w=majority`
+const uri = 'mongodb+srv://internship7777:internship7777@cluster0.dtbg0.mongodb.net/?retryWrites=true&w=majority'
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
