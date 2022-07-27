@@ -9,7 +9,7 @@ notificationForm.addEventListener('submit', async (e) => {
     const jsonFormData = JSON.stringify(formDataObject)
     console.log(jsonFormData)
 
-    await fetch ('https://iocl-newsletter.herokuapp.com/sendNotification', {
+    await fetch ('/sendNotification', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
