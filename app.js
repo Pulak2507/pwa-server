@@ -12,7 +12,7 @@ const app = express()
 app.use(express.static(path.join(__dirname, "public")))
 
 app.use(cors({
-  origin: "https://ioclpushclient.herokuapp.com"
+  origin: "https://iocl-newsletter.herokuapp.com/"
 }))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
